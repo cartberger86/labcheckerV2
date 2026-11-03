@@ -308,3 +308,7 @@ tr:last-child td{border-bottom:0}
   .credit .btn{width:100%;justify-content:center}
   .foot{padding-bottom:calc(var(--space-8) + env(safe-area-inset-bottom))}
 }
+.brandrow{display:flex;align-items:center;gap:var(--space-3);margin-top:var(--space-1)}
+.brandrow h1{margin-top:0}
+.logo{flex:none;border-radius:10px}
+.privacy{margin-top:var(--space-4);font-size:var(--text-sm);color:var(--text);max-width:70ch}
